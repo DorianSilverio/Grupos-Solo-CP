@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake WhatsApp</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9368844007986502"
+    crossorigin="anonymous"></script>
+<!-- As click -->
+<ins class="adsbygoogle"
+    style="display:block"
+    data-ad-client="ca-pub-9368844007986502"
+    data-ad-slot="8267105230"
+    data-ad-format="auto"
+    data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+    <!-- Contenedor principal -->
+    <div class="whatsapp-container">
+        <!-- Encabezado simulado de WhatsApp -->
+        <header class="whatsapp-header">
+            <img src="whatsapp-logo.png" alt="WhatsApp Logo">
+            <h1>Full CP</h1> <!-- Nombre del chat -->
+        </header>
+
+        <!-- Contenedor del chat simulado -->
+        <main class="chat-container">
+            <!-- Mensajes simulados (con imágenes) -->
+            <div class="message outgoing">
+                <div class="user-info">
+                    <img src="cual-es-el-perfil-de-un-analista-de-sistemas.webp" alt="Persona 2">
+                    <span class="username">Ana</span>
+                </div>
+                <img src="finalidad-organizacion-empresa (1).jpg" alt="Imagen 2">
+            </div>
+            <div class="message outgoing">
+                <div class="user-info">
+                    <img src="cual-es-el-perfil-de-un-analista-de-sistemas.webp" alt="Persona 2">
+                    <span class="username">Max</span>
+                </div>
+                <img src="finalidad-organizacion-empresa (1).jpg" alt="Imagen 2">
+            </div>
+            
+          
+         
+            <!-- Agregar más mensajes con imágenes según sea necesario -->
+
+            <!-- Área para enviar mensajes simulada -->
+            <div class="message-input">
+                <input type="text" placeholder="Escribe un mensaje...">
+                <button>Enviar</button>
+            </div>
+        </main>
+    </div>
+
+    <!-- Modal para unirse al grupo -->
+    <div id="join-group-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>¿Quieres unirte al chat de Full CP?</p>
+            <button onclick="joinGroup()">Sí, unirme</button>
+        </div>
+    </div>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9368844007986502"
+    crossorigin="anonymous"></script>
+    <!-- Script para controlar el modal -->
+    <script>
+        // Función para mostrar el modal al cargar la página
+        window.onload = function() {
+            document.getElementById('join-group-modal').style.display = 'block';
+        }
+
+        // Función para unirse al grupo (puedes reemplazar esto con tu lógica real)
+        function joinGroup() {
+            alert('Te has unido al chat de Full CP.');
+            // Aquí puedes agregar lógica adicional para unir al usuario al chat
+            // Por ejemplo, redirigir a otra página o realizar una acción específica
+        }
+
+        // Función para cerrar el modal
+        var closeButton = document.getElementsByClassName('close')[0];
+        closeButton.onclick = function() {
+            document.getElementById('join-group-modal').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
